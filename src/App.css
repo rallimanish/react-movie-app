@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: lightcyan;
+    display: flex;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar .m{
+    margin-left: 2rem;
+}
+
+
+.navbar .f{
+    margin-right: 60rem;
+}
+.banner-card{
+    width: 100vw;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    position: relative;
+    height: 70vh;
+    color: white;
+}
+.banner-img{
+    height: 70vh;
+    width: 100%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .banner-title{
+    position: absolute;
+    top: 45vh;
+    left: 5vw;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .banner-text{
+    position: absolute;
+    top: 55vh;
+    left: 5vw;
+    height: 4.5rem;
+    overflow: hidden;
+    margin-right: 5vw;
   }
-}
+
+  .movies-image{
+      height:40vh;
+      width:20vw
+  }
+
+  .movies-list{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 1rem;
+  }
+
+  .movies-card{
+      width: 20vw;
+      margin:1rem;
+      color: white;
+      position: relative;
+  }
+
+  .movies-title{
+    top:1rem;
+    left:1rem;
+    position:absolute;
+  }
+
+  .movies-button{
+    position:absolute;
+    bottom:2rem;
+  }
+
+  .button-wrapper{
+      display: flex;
+      justify-content: center;
+  }
+
+  .favourites-genres{
+      padding: 1rem;
+  }
